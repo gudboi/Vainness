@@ -1,19 +1,28 @@
 package com.carlosjacinto.vainness;
 
+import android.os.Parcelable;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
 
 public class MainActivity extends FragmentActivity {
 
     boolean firstTimePortrait = true;
+    boolean mIsDualPane;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
 
         // Check whether we're recreating a previously destroyed instance
         if (savedInstanceState != null) {

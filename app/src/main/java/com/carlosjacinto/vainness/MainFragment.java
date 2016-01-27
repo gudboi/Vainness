@@ -23,6 +23,34 @@ public class MainFragment extends ListFragment {
     }
 
     @Override
+    public void onCreate(Bundle savedInstanceState) {
+        // TODO Auto-generated method stub
+        super.onCreate(savedInstanceState);
+
+
+        setRetainInstance(true);
+
+    }
+
+    /*
+
+
+    private String dataGotFromServer;
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("dataGotFromServer", dataGotFromServer);
+    }
+
+    @Override
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        dataGotFromServer = savedInstanceState.getString("dataGotFromServer");
+    }
+    }
+     */
+    @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 

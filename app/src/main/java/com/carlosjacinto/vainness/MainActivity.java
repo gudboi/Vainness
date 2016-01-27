@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 
+
 public class MainActivity extends AppCompatActivity {
 
     boolean firstTimePortrait = true;

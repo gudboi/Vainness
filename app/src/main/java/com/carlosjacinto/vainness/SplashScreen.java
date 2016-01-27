@@ -55,7 +55,7 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 try {
                     int waited = 0;
-                    while (waited < 3500) {
+                    while (waited < 3800) {
                         sleep(100);
                         waited += 100;
                     }
